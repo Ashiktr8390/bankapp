@@ -1,0 +1,22 @@
+data sharing
+
+html ts (data sharing b/w )
+
+view(html )  ts(component)
+
+
+data binding(use to share data)
+----------------
+methods
+1.one way  binding
+     1.1 component to view
+        1.1.1  string interpolation           {{}}
+        1.1.2   property binding              [property]="value"
+     2.1 view to component
+        1.2.1  event binding                  (event name)="methodname()"
+        1.2.2  $event binding                 (event name)="methodname($event)"
+        1.2.3  event binding using template reference variable   #
+
+2.two way binding
+
+    2.1 ngmodel  formsmodule(a module in ng model)  [(ngModel)]="value"

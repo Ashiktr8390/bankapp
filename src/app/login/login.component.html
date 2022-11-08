@@ -1,0 +1,20 @@
+<div><h3 class="text-Primary p-5 text-center">{{aim}}</h3></div>
+
+<form >
+
+<div class="container w-25 border mt-5 p-3" style="background: rgba(85, 198, 104, 0.6); border-radius: 25px;">
+<h1 class="text-center text-white ">Login Page</h1>
+<div class="mt-2 p-2">
+    <input [(ngModel)]="acno" name="acno" [placeholder]="data" type="text" class="form-control" id="acid">
+</div>
+<div class="mt-2 p-2">
+    <input [(ngModel)]="psw"  name="psw" type="password" placeholder="password" class="form-control" id="pid">
+</div>
+<div class="text-center mt-2 p-2">
+    <button type="submit" (click)="login()" class="btn btn-outline-dark">Login</button><br><br>
+    <p class="text-white">new user? <a href="">register</a></p>
+</div>
+</div>
+
+
+</form>

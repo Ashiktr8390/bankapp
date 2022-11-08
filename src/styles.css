@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+height: 700px;
+    background: url(./assets/money-2696228__480.webp);
+    background-size: cover;
+}
