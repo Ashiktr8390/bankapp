@@ -1,0 +1,25 @@
+<p>register works!</p>
+
+<form >
+
+    <div class="container w-50 border mt-5 p-3" style="background: rgba(85, 198, 104, 0.6); border-radius: 25px;">
+    <h1 class="text-center text-white ">Register Page</h1>
+   
+    <div class="mt-2 p-2">
+        <input [(ngModel)]="uname" name="uname" placeholder="username" type="text" class="form-control" id="acid">
+    </div>
+   
+    <div class="mt-2 p-2">
+        <input [(ngModel)]="acno"  name="acno" placeholder="ac number" type="text" class="form-control" id="acid">
+    </div>
+    <div class="mt-2 p-2">
+        <input [(ngModel)]="psw"   name="psw" type="password" placeholder="password" class="form-control" id="pid">
+    </div>
+    <div class="text-center mt-2 p-2">
+        <button type="submit"  class="btn btn-outline-dark" (click)="register()">register</button><br><br>
+    </div>
+    </div>
+    
+    
+    </form>
+    

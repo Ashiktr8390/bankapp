@@ -20,3 +20,22 @@ methods
 2.two way binding
 
     2.1 ngmodel  formsmodule(a module in ng model)  [(ngModel)]="value"
+
+
+routing in angular
+------------------
+
+navigateByUrl   is amethod of class router
+
+dependency injection
+-------------------
+to share data b/w two clases
+inside constructor
+
+accessSpecifier(public/private)variable:classname
+
+angular services
+---------------
+to store redundent datas
+
+ng g s serviceName
